@@ -1,0 +1,5 @@
+,Feature,Gini_importance_RF,Boruta_Rank,Support,Weak_Support
+0,Digital_Social_Impression,0.45099711456966446,1,True,False
+1,Digital_Video_Impression,0.20887922503905204,1,True,False
+2,Digital_Search_Impression,0.17527889211259853,3,False,False
+3,Digital_Display_Impression,0.16484476827868494,2,False,True

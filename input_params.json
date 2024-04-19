@@ -1,0 +1,28 @@
+{"eda_univariate":
+	{
+		"data_input":  "./input/3_Adidas_Weekly.csv",
+		"date_variable": "Date",
+		"target_variable": "KPI_Total_Sales",
+		"granularity":"Weekly"
+	},
+"eda_bivariate":
+ 	{	
+		"data_input":  "./input/3_Adidas_Weekly.csv",
+		"date_variable": "Date",
+		"splom_list": ["Offline_TV_Total_Spends","Digital_Display_Spend", "KPI_Total_Sales"]
+	},
+"model_config_params": 
+	{
+		"modeling_data_input": "input/4_Adidas_Monthly.csv",
+         	"target_variable": "KPI_Total_Sales",
+                "asl_dump_path": "./output/",
+                "output_path": "./fresh_run_jun23",
+                "granularity": "monthly",
+                "modeling_period": 36,
+                "validation_period": 6,
+                "contribution_period": 12,
+                "p_value_limit": 0.5,
+                "r_square_limit": 0.0,
+                "vif_limit": 5.0
+	}
+}
